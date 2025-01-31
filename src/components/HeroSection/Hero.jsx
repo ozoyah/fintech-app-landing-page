@@ -13,9 +13,16 @@ const Hero = () => {
             you no longer need to go to the bank to do this. Only through this
             platform, all financial activities can be completed
           </p>
-          <div className="flex items-center">
-            <button>Get Started</button>
-            <button>Learn more</button>
+          <div
+            className="flex items-center gap-3
+          "
+          >
+            <button className="bg-[#FF8100] rounded-full px-3 py-2 font-bold text-xs">
+              Get Started
+            </button>
+            <button className="bg-white border-black border-[1px] rounded-full px-3 py-2 font-bold text-xs">
+              Learn more
+            </button>
           </div>
         </div>
         <div>

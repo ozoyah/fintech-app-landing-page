@@ -27,15 +27,17 @@ const NavBar = () => {
   return (
     <section className="bg-white pt-4 font-myFont">
       <nav>
-        <div className="container flex items-center justify-between gap-3">
+        <div className="container flex items-center justify-between">
           <div className="flex items-center gap-7">
             <h1 className="text-xl text-black font-bold">Soudemy</h1>
-            <div className="hidden md:flex">
-              <ul className="flex items-center text-black">
+            <div className="flex">
+              <ul className=" flex text-black">
                 {NavbarMenu.map((item) => {
-                  <li key={item.id} className="mr-3">
-                    <a href={item.link}>{item.title}</a>
-                  </li>;
+                  return (
+                    <li key={item.id} className="mr-3">
+                      <a href={item.link}>{item.title}</a>
+                    </li>
+                  );
                 })}
               </ul>
             </div>

@@ -25,12 +25,12 @@ const NavBar = () => {
     },
   ];
   return (
-    <section className="bg-white pt-4 font-myFont">
+    <section className="container bg-white pt-4 font-myFont">
       <nav>
         <div className="container flex items-center justify-between">
           <div className="flex items-center gap-7">
             <h1 className="text-xl text-black font-bold">Soudemy</h1>
-            <div className="flex">
+            <div className="hidden md:flex">
               <ul className=" flex text-black">
                 {NavbarMenu.map((item) => {
                   return (

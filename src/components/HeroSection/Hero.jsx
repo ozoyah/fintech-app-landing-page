@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImg from "../../assets/Group 1.png";
+import { LuCircleCheck } from "react-icons/lu";
 
 const Hero = () => {
   return (
@@ -24,11 +25,24 @@ const Hero = () => {
               Learn more
             </button>
           </div>
-          <div className="grid grid-cols-2 gap-1 text-sm w-2/3">
-            <p>Easily Access any data</p>
-            <p>Easily Access any data</p>
-            <p>Easily Access any data</p>
-            <p>Easily Access any data</p>
+          <div className="grid grid-cols-1 text-sm md:w-3/4 md:grid-cols-2">
+            <div className="flex gap-1 items-center">
+              <LuCircleCheck className="text-green-600" />
+              <p>Easily Access any data</p>
+            </div>
+
+            <div className="flex gap-1 items-center">
+              <LuCircleCheck className="text-green-600" />
+              <p>Easily Access any data</p>
+            </div>
+            <div className="flex gap-1 items-center">
+              <LuCircleCheck className="text-green-600" />
+              <p>Easily Access any data</p>
+            </div>
+            <div className="flex gap-1 items-center">
+              <LuCircleCheck className="text-green-600" />
+              <p>Easily Access any data</p>
+            </div>
           </div>
         </div>
         <div>

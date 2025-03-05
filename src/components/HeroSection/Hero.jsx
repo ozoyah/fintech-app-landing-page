@@ -4,7 +4,7 @@ import HeroImg from "../../assets/Group 1.png";
 const Hero = () => {
   return (
     <section className="container mt-16 font-myFont">
-      <div className=" container flex gap-5 md:flex-row">
+      <div className=" container flex flex-col gap-5 md:flex-row">
         <div className="flex flex-col space-y-3 w-11/12">
           <h1 className="text-5xl text-black font-bold leading-[4.5rem]">
             Soudemy can maximize your money flow.
@@ -24,7 +24,7 @@ const Hero = () => {
               Learn more
             </button>
           </div>
-          <div className="flex flex-wrap gap-2 text-sm">
+          <div className="grid grid-cols-2 gap-1 text-sm w-2/3">
             <p>Easily Access any data</p>
             <p>Easily Access any data</p>
             <p>Easily Access any data</p>
